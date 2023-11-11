@@ -3,6 +3,8 @@ a tool for xxt app to signup without qrcode time limitation
 
 
 学习通无视二维码过期时间，无视不显示邀请码批量签到脚本。
+只需要一个二维码（过期的也可以），即可实现批量给多人签到。
+
 1. 用https://cli.im/deqr/other 扫描二维码，获取activeId
 2. 将需要签到的人的姓名和学号写入user.csv，注意第一行为表头，不要修改。接下来每一行为一个人的姓名和学号，用英文逗号隔开。
 3. 运行脚本进行签到
